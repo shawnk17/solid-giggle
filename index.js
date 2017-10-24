@@ -1,7 +1,7 @@
-var whotogreet ="Shawn ";
+var whotogreet ="Shawn ", 
+    loops = 10;
 
-for(var i = 0; i < 10; i+ 1) (
-console.log(i + "Hello, " + whotogreet  +"1"));
+for(var i = 1; i <= loops; i++) {
+console.log(i + "Hello, " + whotogreet  +"!" + (loops + i));
+}
 
-test
-)
