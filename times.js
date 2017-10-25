@@ -1,9 +1,13 @@
-for(var i = 0; i < 12;1++)(
-    console.log("i ="+ i)
-    for(var) + 0
-    //  console.log(i =)    
-    console.log(i + + "x" )
+var maxOuterNum = 12,
+maxInnerNum = 12;
 
-    if(i !==12)
-    console.log("___________")
-)   
+for (var i = 0; i <= maxOuterNum; i++) {
+console.log("The " + i + "'s Table");
+for (var j = 0; j <= maxInnerNum; j++) {
+    console.log(i + " X " + j + " = " + (i * j));
+}
+
+if (i != maxOuterNum) {
+    console.log("_________________________");
+}
+}
